@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Slider</title>
+        <style>
+            body{
+                background-color: #deb878;
+            }
+
+            h1{
+                text-align: center;
+                text-decoration: underline;
+                text-transform: capitalize;
+            }
+            .carousel-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px; /*Adjust based on your image height */
+            }
+            /* Hide all sliders by default */
+            .myslides {
+                display: none;
+                max-height: 100%;/* Ensure images fit  within container */
+                max-width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Plants</h1>
+        <div class="carousel-container">
+            <img class="myslides" src="images.png" height="300" width="300" alt="image1">
+            <img class="myslides" src="img1.png" height="300" width="300" alt="image2">
+            <img class="myslides" src="img2.jpg" height="300" width="300" alt="image3">
+            <img class="myslides" src="img3.png" height="300" width="300" alt="image4">
+            
+        </div>
+        <script src="script.js">
+
+
+        </script>
+    </body>
+</html>
